@@ -1,12 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+
+
+<!-- 
+    Overoop altijd eerst de andere css-bestanden, zadt je de juiste benamingen voor de voorgekauwde classes gebruikt zoals in het grid
+-->
+
+<!-- 
+    Tip-1
+    Start met het Grid
+    denk aan het ezelsbrugje "COROCO & Zonen": 
+    Voeg deze class-benaming eerst toe aan de juiste div's. De lay-outstructuur zal dan al zo goed als juist staan.
+    - Dan pas de divs die voor de finale styling zorgen
+-->
+
+<!-- 
+    Tip-2
+    Om snel overzicht te hebben over de structuur: 
+    klap eerst alle divs dicht. vul de classes aan. Open daarna na telkens volgens hun verwantschap.
+    Open en dichtklappen doe je door op het kleine plus- of minteken te klikken aan het begin van een coderij.
+-->
+
+
+
+<html lang="nl-be" dir="ltr" prefix="og: http://ogp.me/ns#">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- 
+VUL IN VOORNAAM NAAM IN HET TITLE-ELEMENT
+-->  
+  <title>Yasmine De Leenheer | Examen Web Technology I | New Media Development | Artevelde University College Ghent</title>
+	
+  <meta name="description" content="We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- 3D Animations, Printing and Packaging and the whole Management of those Workflows.">
+  <meta name="description" content="HTML5, CSS3, JavaScript, Sass, Handlebars, Gulp, Babel">
+  <meta name="author" content="Artevelde University College Ghent - Bachelor in the Graphical and Digital Media | New Media Development">
+  <meta name="copyright" content="Copyright 2010-17 Artevelde University College Ghent. All Rights Reserved.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content=">Web Technology I | New Media Development | Artevelde University College Ghent">
+  <meta property="og:description" content="We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- 3D Animations, Printing and Packaging and the whole Management of those Workflows.">
+  <meta property="og:url" content="http://www.gdm.gent/">
+  <meta property="og:site_name" content="Mobile Development I">
+  <meta property="og:image" content="assets/images/ahs.png">
+  <meta property="og:image:width" content="129">
+  <meta property="og:image:height" content="129">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/images/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/images/icons/manifest.json">
+  <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#ee9900">
+  <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="GDM">
+  <meta name="application-name" content="GDM">
+  <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="author" type="text/plain" href="/humans.txt">
+
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  
+  <!-- te raadplegen css-bestanden -->
+  <link rel="stylesheet" media="all" href="assets/css/variables.css">
+  <link rel="stylesheet" media="all" href="assets/css/fonts.css">
+  <link rel="stylesheet" media="all" href="assets/css/typography.css">
+  <link rel="stylesheet" media="all" href="assets/css/grid.css">
+
+<!-- 
+enige css-bestand waarin je zelf schrijft 
+-->
+  <link rel="stylesheet" media="all" href="assets/css/components.css">
+
 </head>
+
+
 <body>
-    <h1>Hallo</h1>
+<!-- navigatie -->
+<div class="grid__container">
+    <div class="grid__row">
+        <div class="grid__column-12 grid__column-sm-8">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="grid__column-12 grid__column-sm-4">
+            <h2>GDM</h2>
+        </div>
+    </div>
+</div>
+  
+<!-- page content -->
+<div class="grid__container">
+
+    <!-- above fold section -->
+    <div class="grid__row">
+        <!-- main article -->
+        <div class="grid__column-12 grid__column-sm-8">
+                <div class="main">
+                    <div class="main_txt">
+                        <h2>Over mezelf</h2>
+                        <p>Vorig schooljaar heb ik mijn opleiding communicatiemanagement afgerond. Ik voelde mij nog niet klaar om te gaan werken en wou heel graag iets creatiefs gaan doen. Daarom besloot ik mij in te schrijven in de opleiding Grafische en Digitale media. Na deze opleiding ben ik van plan nog een cursus illustratie in het  buitenland te volgen. 
+                            In mijn vrije tijd hou ik mij bezig met tekenen en lezen. Ik ga graag boksen en daarnaast werk ik ook heel wat. In het weekend werk ik in een restaurant, een job dat ik heel graag doe. Daarnaast ga ik op zaterdagen geboortekaartjes ontwerpen in een winkel bij ons in de buurt. Ten slotte kan ik soms gaan babysitten bij 2 toffe kindjes waar ik al enkele jaren ga. 
+
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <!-- recent news -->
+        <div class="grid__column-12 grid__column-sm-4">
+            <div class="aside">
+                <h2>Algemene gegevens</h2>
+                <ul id="recent-news">
+                        <li class="recent-news_item">
+                          Yasmine Frieda Jaak De Leenheer
+                        </li>
+                        <li class="recent-news_item">
+                          Geboren op 30 oktober 1995 in Gent
+                          Woonplaats: Aalst
+                        </li>
+                        <li class="recent-news_item">
+                          Nationaliteit: Belg
+                        </li>
+                        <li class="recent-news_item">
+                          emailadres: yasmine.deleenheer@gmail.com
+                          yasmine.deleenheer@student.arteveldehs.be
+                        </li>
+                        <li class="recent-news_item">
+                          In bezit van rijbewijs B
+                        </li>
+                        <li class="recent-news_item">
+                          Burgerlijke staat: ongehuwd
+                    </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- cards-->
+    <div class="grid__row">
+      <!-- card 1.1 -->
+      <div class="grid__column-12 grid__column-sm-4">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/campagnebeeld_Pagina_1.jpg" alt="campagnebeeld">
+              </div>
+              <div class="top_link">
+                    <p><a href="https://www.itsnicethat.com/">Vormgeving</a></p>
+                </div>
+              <div class="card_txt_container">
+                  <h2>Examenopdracht Vormgeving De Hoge Veluwe</h2>
+                  <p>Advertentie voor natuurpark De Hoge Veluwe in Nederland. Hier wou ik mij focussen op de vele dieren die er leven en besloot ik deze te gebruiken als mijn campagnebeeld. </p>
+              </div>
+          </div>
+      </div>
+      
+      <!-- cards 1.2 -->
+      <div class="grid__column-12 grid__column-sm-4">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/uitnodiging.jpg" alt="uitnodiging">
+              </div>
+              <div class="top_link">
+                    <p><a href="https://www.itsnicethat.com/">Vrije tijd</a></p>
+                </div>
+              <div class="card_txt_container">
+                  <h2>Uitnodiging</h2>
+                  <p>Onlangs kreeg ik de vraag om een uitnodiging te maken voor een verjaardagsfeest. Het ontwerp moest zeker iets te maken hebben met de zee of een specifieke boot. </p>
+              </div>
+            </div>
+      </div>
+
+      <!-- cards 1.3 -->
+      <div class="grid__column-12 grid__column-sm-4">
+          <div class="card">
+              <div class="card_image_container">
+                  <img src="assets/images/beer.jpg" alt="beer">
+              </div>
+              <div class="top_link">
+                    <p><a href="https://www.itsnicethat.com/">Graphic Design</a></p>
+                </div>
+              <div class="card_txt_container">
+                  <h2>Illustratie voor verpakking</h2>
+                  <p>Ik maakte een illustratie dat later nog op de verpakking van koffie zal gebruikt worden. Ik heb mij gefocust op Scandinavisch design, strakke lijnen met gebruik van de kleuren blauw, zwart en roze.  </p>
+              </div>
+          </div>
+      </div>
+
+    
+    </div> 
+    <!-- / cards -->
+
+</div>
+
+<!-- footer -->
+<div class="grid__container footer__container">
+        <div class="grid__row">
+            <div class="grid__column-12">
+                    <footer>Portfolio Yasmine De Leenheer - NMD - 1SVCMO</footer>
+            </div>
+        </div>
+</div>
+
+  <script src="js/main.js"></script>
+  
 </body>
 </html>

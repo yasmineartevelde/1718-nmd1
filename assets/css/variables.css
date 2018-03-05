@@ -1,0 +1,18 @@
+:root {
+    /* colors --------- */
+    --color-white: rgba(255, 255, 255, 1);
+    --color-light-grey: rgb(245, 240, 240);
+    --color-mid-grey: rgba(170, 170, 170, 1);
+    --color-dark-grey: rgba(119, 119, 119, 1);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-orange: rgba(225,80,15,1);
+    --color-blue: rgba(25,25,112,1);
+
+    /* fonts --------- */
+    --font-family-body: 'ebgaramond', serif;
+    --font-family-headings: 'poppins-bold', sans-serif;
+    --font-family-info: 'poppins', sans-serif;
+
+    /* layout --------- */
+    --grid-gutter: 24px;
+}

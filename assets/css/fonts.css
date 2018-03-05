@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Karma:700');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: ebgaramond;
+    src: url(../fonts/EBGaramond-Regular.ttf);
+    font-weight: 400;
+}
